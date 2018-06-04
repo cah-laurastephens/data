@@ -1,0 +1,17 @@
+{
+  "Output_path": "/tmp/paycog/",
+  "Databases":
+  {
+    "MFG_DB": {
+      "connection_string": "paycog",
+      "tables": {
+        "stg_pds_normalized_data": {
+          "order_byx": "order by Dateofservice desc",
+          "order_by": "",
+          "limit": "",
+          "limitx": "top 100"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@memsql-exporter.rheum-data.fuselink.com">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.7">
+    <root id="1">
+      <DefaultCasing>exact</DefaultCasing>
+    </root>
+    <schema id="2" parent="1" name="abyss">
+      <Current>1</Current>
+      <Visible>1</Visible>
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="3" parent="1" name="apa">
+      <Visible>1</Visible>
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="4" parent="1" name="apm">
+      <Visible>1</Visible>
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="5" parent="1" name="catalog">
+      <Visible>1</Visible>
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="6" parent="1" name="cluster">
+      <Visible>1</Visible>
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="7" parent="1" name="data_sci">
+      <Visible>1</Visible>
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="8" parent="1" name="fuse">
+      <Visible>1</Visible>
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="9" parent="1" name="information_schema">
+      <Visible>1</Visible>
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="10" parent="1" name="memsql">
+      <Visible>1</Visible>
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="11" parent="1" name="nike">
+      <Visible>1</Visible>
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="12" parent="1" name="ra_deid">
+      <Visible>1</Visible>
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="13" parent="1" name="rho">
+      <Visible>1</Visible>
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="14" parent="1" name="synthea">
+      <Visible>1</Visible>
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="15" parent="1" name="vandelay">
+      <Visible>1</Visible>
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="16" parent="1" name="vandelay_nonprod">
+      <Visible>1</Visible>
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+  </database-model>
+</dataSource>
